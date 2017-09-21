@@ -6,3 +6,12 @@
 /home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.Dominio/obj/Debug/netstandard2.0/ProblemaDeCollatz.Dominio.AssemblyInfo.cs
 /home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.Dominio/obj/Debug/netstandard2.0/ProblemaDeCollatz.Dominio.dll
 /home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.Dominio/obj/Debug/netstandard2.0/ProblemaDeCollatz.Dominio.pdb
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.Dominio\bin\Debug\netstandard2.0\ProblemaDeCollatz.Dominio.deps.json
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.Dominio\bin\Debug\netstandard2.0\ProblemaDeCollatz.Dominio.dll
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.Dominio\bin\Debug\netstandard2.0\ProblemaDeCollatz.Dominio.pdb
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.Dominio\obj\Debug\netstandard2.0\ProblemaDeCollatz.Dominio.csproj.CoreCompileInputs.cache
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.Dominio\obj\Debug\netstandard2.0\ProblemaDeCollatz.Dominio.AssemblyInfoInputs.cache
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.Dominio\obj\Debug\netstandard2.0\ProblemaDeCollatz.Dominio.AssemblyInfo.cs
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.Dominio\obj\Debug\netstandard2.0\ProblemaDeCollatz.Dominio.dll
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.Dominio\obj\Debug\netstandard2.0\ProblemaDeCollatz.Dominio.pdb
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.Dominio\obj\Debug\netstandard2.0\ProblemaDeCollatz.Dominio.csprojResolveAssemblyReference.cache

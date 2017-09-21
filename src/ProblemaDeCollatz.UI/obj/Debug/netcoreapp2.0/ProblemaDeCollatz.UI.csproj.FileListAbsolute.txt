@@ -8,3 +8,16 @@
 /home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.UI/obj/Debug/netcoreapp2.0/ProblemaDeCollatz.UI.AssemblyInfo.cs
 /home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.UI/obj/Debug/netcoreapp2.0/ProblemaDeCollatz.UI.dll
 /home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.UI/obj/Debug/netcoreapp2.0/ProblemaDeCollatz.UI.pdb
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.UI\bin\Debug\netcoreapp2.0\ProblemaDeCollatz.UI.deps.json
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.UI\bin\Debug\netcoreapp2.0\ProblemaDeCollatz.UI.runtimeconfig.json
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.UI\bin\Debug\netcoreapp2.0\ProblemaDeCollatz.UI.runtimeconfig.dev.json
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.UI\bin\Debug\netcoreapp2.0\ProblemaDeCollatz.UI.dll
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.UI\bin\Debug\netcoreapp2.0\ProblemaDeCollatz.UI.pdb
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.UI\obj\Debug\netcoreapp2.0\ProblemaDeCollatz.UI.csproj.CoreCompileInputs.cache
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.UI\obj\Debug\netcoreapp2.0\ProblemaDeCollatz.UI.AssemblyInfoInputs.cache
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.UI\obj\Debug\netcoreapp2.0\ProblemaDeCollatz.UI.AssemblyInfo.cs
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.UI\obj\Debug\netcoreapp2.0\ProblemaDeCollatz.UI.dll
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.UI\obj\Debug\netcoreapp2.0\ProblemaDeCollatz.UI.pdb
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.UI\bin\Debug\netcoreapp2.0\ProblemaDeCollatz.Dominio.dll
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.UI\bin\Debug\netcoreapp2.0\ProblemaDeCollatz.Dominio.pdb
+C:\source\ProblemaDeCollatz\src\ProblemaDeCollatz.UI\obj\Debug\netcoreapp2.0\ProblemaDeCollatz.UI.csprojResolveAssemblyReference.cache

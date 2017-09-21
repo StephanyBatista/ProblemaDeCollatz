@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "ProblemaDeCollatz.UI/1.0.0": {
+        "dependencies": {
+          "ProblemaDeCollatz.Dominio": "1.0.0"
+        },
         "runtime": {
           "ProblemaDeCollatz.UI.dll": {}
+        }
+      },
+      "ProblemaDeCollatz.Dominio/1.0.0": {
+        "runtime": {
+          "ProblemaDeCollatz.Dominio.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ProblemaDeCollatz.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProblemaDeCollatz.Dominio/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

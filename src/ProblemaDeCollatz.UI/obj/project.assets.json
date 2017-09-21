@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "ProblemaDeCollatz.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ProblemaDeCollatz.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProblemaDeCollatz.Dominio.dll": {}
+        }
       }
     }
   },
@@ -656,41 +666,56 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "ProblemaDeCollatz.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../ProblemaDeCollatz.Dominio/ProblemaDeCollatz.Dominio.csproj",
+      "msbuildProject": "../ProblemaDeCollatz.Dominio/ProblemaDeCollatz.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "ProblemaDeCollatz.Dominio >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "/home/stephany/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\henriquebatista\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "/home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.UI/ProblemaDeCollatz.UI.csproj",
+      "projectUniqueName": "C:\\source\\ProblemaDeCollatz\\src\\ProblemaDeCollatz.UI\\ProblemaDeCollatz.UI.csproj",
       "projectName": "ProblemaDeCollatz.UI",
-      "projectPath": "/home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.UI/ProblemaDeCollatz.UI.csproj",
-      "packagesPath": "/home/stephany/.nuget/packages/",
-      "outputPath": "/home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.UI/obj/",
+      "projectPath": "C:\\source\\ProblemaDeCollatz\\src\\ProblemaDeCollatz.UI\\ProblemaDeCollatz.UI.csproj",
+      "packagesPath": "C:\\Users\\henriquebatista\\.nuget\\packages\\",
+      "outputPath": "C:\\source\\ProblemaDeCollatz\\src\\ProblemaDeCollatz.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/stephany/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\henriquebatista\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\source\\ProblemaDeCollatz\\src\\ProblemaDeCollatz.Dominio\\ProblemaDeCollatz.Dominio.csproj": {
+              "projectPath": "C:\\source\\ProblemaDeCollatz\\src\\ProblemaDeCollatz.Dominio\\ProblemaDeCollatz.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

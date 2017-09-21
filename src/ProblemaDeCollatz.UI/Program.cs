@@ -1,12 +1,20 @@
 ﻿using System;
+using ProblemaDeCollatz.Dominio;
 
 namespace ProblemaDeCollatz.UI
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IGeradorDoProximoNumeroDeCollatz geradorDoProximoNumeroDeCollatz = new GeradorDoProximoNumeroDeCollatz();
+            IGeradorDeSequenciaCollatz geradorDeSequenciaCollatz = new GeradorDeSequenciaCollatz(geradorDoProximoNumeroDeCollatz);
+            ICalculadorDaMaiorSequenciaDeCollatz calculadorDaMaiorSequenciaDeCollatz = new CalculadorDaMaiorSequenciaDeCollatz(geradorDeSequenciaCollatz);
+
+            var maiorNumeroComSequencia = calculadorDaMaiorSequenciaDeCollatz.Calcular(1, 1000000);
+
+            Console.WriteLine(maiorNumeroComSequencia);
+            Console.ReadKey();
         }
     }
 }
