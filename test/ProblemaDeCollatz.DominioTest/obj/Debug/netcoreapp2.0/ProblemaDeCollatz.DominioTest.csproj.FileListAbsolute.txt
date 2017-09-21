@@ -1,0 +1,13 @@
+/home/stephany/Documents/Source/ProblemaDeCollatz/test/ProblemaDeCollatz.DominioTest/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/home/stephany/Documents/Source/ProblemaDeCollatz/test/ProblemaDeCollatz.DominioTest/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/home/stephany/Documents/Source/ProblemaDeCollatz/test/ProblemaDeCollatz.DominioTest/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/home/stephany/Documents/Source/ProblemaDeCollatz/test/ProblemaDeCollatz.DominioTest/bin/Debug/netcoreapp2.0/ProblemaDeCollatz.DominioTest.deps.json
+/home/stephany/Documents/Source/ProblemaDeCollatz/test/ProblemaDeCollatz.DominioTest/bin/Debug/netcoreapp2.0/ProblemaDeCollatz.DominioTest.runtimeconfig.json
+/home/stephany/Documents/Source/ProblemaDeCollatz/test/ProblemaDeCollatz.DominioTest/bin/Debug/netcoreapp2.0/ProblemaDeCollatz.DominioTest.runtimeconfig.dev.json
+/home/stephany/Documents/Source/ProblemaDeCollatz/test/ProblemaDeCollatz.DominioTest/bin/Debug/netcoreapp2.0/ProblemaDeCollatz.DominioTest.dll
+/home/stephany/Documents/Source/ProblemaDeCollatz/test/ProblemaDeCollatz.DominioTest/bin/Debug/netcoreapp2.0/ProblemaDeCollatz.DominioTest.pdb
+/home/stephany/Documents/Source/ProblemaDeCollatz/test/ProblemaDeCollatz.DominioTest/obj/Debug/netcoreapp2.0/ProblemaDeCollatz.DominioTest.csproj.CoreCompileInputs.cache
+/home/stephany/Documents/Source/ProblemaDeCollatz/test/ProblemaDeCollatz.DominioTest/obj/Debug/netcoreapp2.0/ProblemaDeCollatz.DominioTest.AssemblyInfoInputs.cache
+/home/stephany/Documents/Source/ProblemaDeCollatz/test/ProblemaDeCollatz.DominioTest/obj/Debug/netcoreapp2.0/ProblemaDeCollatz.DominioTest.AssemblyInfo.cs
+/home/stephany/Documents/Source/ProblemaDeCollatz/test/ProblemaDeCollatz.DominioTest/obj/Debug/netcoreapp2.0/ProblemaDeCollatz.DominioTest.dll
+/home/stephany/Documents/Source/ProblemaDeCollatz/test/ProblemaDeCollatz.DominioTest/obj/Debug/netcoreapp2.0/ProblemaDeCollatz.DominioTest.pdb

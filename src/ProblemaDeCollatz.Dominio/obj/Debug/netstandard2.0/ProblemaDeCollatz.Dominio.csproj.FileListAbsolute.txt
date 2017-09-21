@@ -1,0 +1,8 @@
+/home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.Dominio/bin/Debug/netstandard2.0/ProblemaDeCollatz.Dominio.deps.json
+/home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.Dominio/bin/Debug/netstandard2.0/ProblemaDeCollatz.Dominio.dll
+/home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.Dominio/bin/Debug/netstandard2.0/ProblemaDeCollatz.Dominio.pdb
+/home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.Dominio/obj/Debug/netstandard2.0/ProblemaDeCollatz.Dominio.csproj.CoreCompileInputs.cache
+/home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.Dominio/obj/Debug/netstandard2.0/ProblemaDeCollatz.Dominio.AssemblyInfoInputs.cache
+/home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.Dominio/obj/Debug/netstandard2.0/ProblemaDeCollatz.Dominio.AssemblyInfo.cs
+/home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.Dominio/obj/Debug/netstandard2.0/ProblemaDeCollatz.Dominio.dll
+/home/stephany/Documents/Source/ProblemaDeCollatz/src/ProblemaDeCollatz.Dominio/obj/Debug/netstandard2.0/ProblemaDeCollatz.Dominio.pdb
