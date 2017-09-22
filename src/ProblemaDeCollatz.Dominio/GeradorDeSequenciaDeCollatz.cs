@@ -4,30 +4,34 @@ namespace ProblemaDeCollatz.Dominio
 {
     public interface IGeradorDeSequenciaCollatz
     {
-        List<int> Gerar(int numero);
+        int ContarParaNumero(int numero);
     }
 
-    public class GeradorDeSequenciaCollatz : IGeradorDeSequenciaCollatz
+    public class ContadorDeSequenciaDeCollatz : IGeradorDeSequenciaCollatz
     {
         private readonly IGeradorDoProximoNumeroDeCollatz _geradorDoProximoNumeroDeCollatz;
 
-        public GeradorDeSequenciaCollatz(IGeradorDoProximoNumeroDeCollatz geradorDoProximoNumeroDeCollatz)
+        public ContadorDeSequenciaDeCollatz(IGeradorDoProximoNumeroDeCollatz geradorDoProximoNumeroDeCollatz)
         {
             _geradorDoProximoNumeroDeCollatz = geradorDoProximoNumeroDeCollatz;
         }
 
-        public List<int> Gerar(int numero)
+        public int ContarParaNumero(int numero)
         {
-            var sequencia = new List<int>();
+            var quantidade = 0;
             var numeroAtual = numero;
 
             while(numeroAtual > 0)
             {
-                sequencia.Add(numeroAtual);
+                quantidade++;
+
+                if(numeroAtual == 1)
+                    break;
+
                 numeroAtual = _geradorDoProximoNumeroDeCollatz.Gerar(numeroAtual);
             }
 
-            return sequencia;
+            return quantidade;
         }
     }
 }

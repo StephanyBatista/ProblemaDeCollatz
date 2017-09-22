@@ -9,11 +9,7 @@ namespace ProblemaDeCollatz.Dominio
     {
         public int Gerar(int numero)
         {
-            if(numero == 1)
-                return 0;
-            if(numero % 2 == 0)
-                return numero / 2;
-            return (numero * 3) + 1;
+            return numero % 2 == 0 ? numero / 2 : 3 * numero + 1;
         }
     }
 }

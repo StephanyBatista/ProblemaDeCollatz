@@ -15,14 +15,6 @@ namespace ProblemaDeCollatz.DominioTest
         }
 
         [TestMethod]
-        public void DeveCalcularProximoNumeroParaIgualAZeroQuandoForUm()
-        {
-            var resultado = _gerador.Gerar(1);
-            
-            Assert.AreEqual(0, resultado);
-        }
-
-        [TestMethod]
         public void DeveCalcularProximoNumeroParaIgualANumeroDivididoPorDoisQuandoForPar()
         {
             var resultado = _gerador.Gerar(2);

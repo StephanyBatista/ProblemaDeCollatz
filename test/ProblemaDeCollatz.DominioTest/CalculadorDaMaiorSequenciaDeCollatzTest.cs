@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using ProblemaDeCollatz.Dominio;
 
@@ -15,10 +14,10 @@ namespace ProblemaDeCollatz.DominioTest
         public void Setup()
         {
             _geradorDeSequenciaCollatz = new Mock<IGeradorDeSequenciaCollatz>();
-            _geradorDeSequenciaCollatz.Setup(gerador => gerador.Gerar(1)).Returns(new List<int> { 1 });
-            _geradorDeSequenciaCollatz.Setup(gerador => gerador.Gerar(2)).Returns(new List<int> { 1, 2 });
-            _geradorDeSequenciaCollatz.Setup(gerador => gerador.Gerar(3)).Returns(new List<int> { 1, 2, 4, 8, 16, 5, 10 });
-            _geradorDeSequenciaCollatz.Setup(gerador => gerador.Gerar(4)).Returns(new List<int> { 1, 2, 4 });
+            _geradorDeSequenciaCollatz.Setup(gerador => gerador.ContarParaNumero(1)).Returns(1);
+            _geradorDeSequenciaCollatz.Setup(gerador => gerador.ContarParaNumero(2)).Returns(2);
+            _geradorDeSequenciaCollatz.Setup(gerador => gerador.ContarParaNumero(3)).Returns(7);
+            _geradorDeSequenciaCollatz.Setup(gerador => gerador.ContarParaNumero(4)).Returns(3);
 
             _calculador = new CalculadorDaMaiorSequenciaDeCollatz(_geradorDeSequenciaCollatz.Object);
         }
@@ -32,13 +31,20 @@ namespace ProblemaDeCollatz.DominioTest
 
             var numeroComMaiorSequencia = _calculador.Calcular(primeiroNumero, segundoNumero);
 
-            Assert.AreEqual(numeroComMaiorSequencia, numeroComMaiorSequenciaEsperado);
+            Assert.AreEqual(numeroComMaiorSequenciaEsperado, numeroComMaiorSequencia);
         }
 
         [TestMethod]
-        public void NaoDevePrimeiroNumeroSerMaiorOuIgualAoSegundoNumero()
+        public void NaoDevePrimeiroNumeroSerMaiorAoSegundoNumero()
         {
             var message = Assert.ThrowsException<ExcecaoDeDominio>(() => _calculador.Calcular(2, 1)).Message;
+            Assert.AreEqual("Primeiro número deve ser menor que segundo número", message);
+        }
+
+        [TestMethod]
+        public void NaoDevePrimeiroNumeroSerIgualAoSegundoNumero()
+        {
+            var message = Assert.ThrowsException<ExcecaoDeDominio>(() => _calculador.Calcular(2, 2)).Message;
             Assert.AreEqual("Primeiro número deve ser menor que segundo número", message);
         }
     }

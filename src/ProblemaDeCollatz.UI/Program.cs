@@ -8,13 +8,12 @@ namespace ProblemaDeCollatz.UI
         static void Main(string[] args)
         {
             IGeradorDoProximoNumeroDeCollatz geradorDoProximoNumeroDeCollatz = new GeradorDoProximoNumeroDeCollatz();
-            IGeradorDeSequenciaCollatz geradorDeSequenciaCollatz = new GeradorDeSequenciaCollatz(geradorDoProximoNumeroDeCollatz);
+            IGeradorDeSequenciaCollatz geradorDeSequenciaCollatz = new ContadorDeSequenciaDeCollatz(geradorDoProximoNumeroDeCollatz);
             ICalculadorDaMaiorSequenciaDeCollatz calculadorDaMaiorSequenciaDeCollatz = new CalculadorDaMaiorSequenciaDeCollatz(geradorDeSequenciaCollatz);
 
             var maiorNumeroComSequencia = calculadorDaMaiorSequenciaDeCollatz.Calcular(1, 1000000);
 
-            Console.WriteLine(maiorNumeroComSequencia);
-            Console.ReadKey();
+            Console.WriteLine($"{maiorNumeroComSequencia} é número com maior sequencia de Collatz");
         }
     }
 }

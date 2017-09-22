@@ -11,25 +11,30 @@ namespace ProblemaDeCollatz.Dominio
     public class CalculadorDaMaiorSequenciaDeCollatz : ICalculadorDaMaiorSequenciaDeCollatz
     {
         private readonly IGeradorDeSequenciaCollatz _geradorDeSequenciaCollatz;
-        private readonly Dictionary<int, List<int>> _sequenciasGeradas;
 
         public CalculadorDaMaiorSequenciaDeCollatz(IGeradorDeSequenciaCollatz geradorDeSequenciaCollatz)
         {
             _geradorDeSequenciaCollatz = geradorDeSequenciaCollatz;
-            _sequenciasGeradas = new Dictionary<int, List<int>>();
         }
 
         public int Calcular(int primeiroNumero, int segundoNumero)
         {
-            ExcecaoDeDominio.Quando(primeiroNumero >= segundoNumero, "Primeiro n˙mero deve ser menor que segundo n˙mero");
+            ExcecaoDeDominio.Quando(primeiroNumero >= segundoNumero, "Primeiro n√∫mero deve ser menor que segundo n√∫mero");
+
+            var numeroComMaiorQuantidade = 0;
+            var maiorQuantidade = 0;
 
             for (var index = primeiroNumero; index <= segundoNumero; index++)
             {
-                var sequencia = _geradorDeSequenciaCollatz.Gerar(index);
-                _sequenciasGeradas.Add(index, sequencia);
+                var quantidade = _geradorDeSequenciaCollatz.ContarParaNumero(index);
+
+                if (maiorQuantidade >= quantidade) continue;
+
+                numeroComMaiorQuantidade = index;
+                maiorQuantidade = quantidade;
             }
 
-            return _sequenciasGeradas.OrderByDescending(sequencia => sequencia.Value.Count).First().Key;
+            return numeroComMaiorQuantidade;
         }
     }
 }

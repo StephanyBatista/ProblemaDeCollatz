@@ -685,9 +685,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "C:\\source\\ProblemaDeCollatz\\src\\ProblemaDeCollatz.UI\\ProblemaDeCollatz.UI.csproj",
       "projectName": "ProblemaDeCollatz.UI",
