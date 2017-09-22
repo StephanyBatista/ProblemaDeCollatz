@@ -5786,9 +5786,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "C:\\source\\ProblemaDeCollatz\\test\\ProblemaDeCollatz.DominioTest\\ProblemaDeCollatz.DominioTest.csproj",
       "projectName": "ProblemaDeCollatz.DominioTest",
@@ -5828,19 +5825,8 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "MSTest.TestFramework": {
-            "target": "Package",
-            "version": "1.1.18"
-          },
-          "MSTest.TestAdapter": {
-            "target": "Package",
-            "version": "1.1.18"
-          },
-          "Moq": {
-            "target": "Package",
-            "version": "4.7.99"
-          },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
@@ -5848,6 +5834,18 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "15.3.0-preview-20170628-02"
+          },
+          "Moq": {
+            "target": "Package",
+            "version": "4.7.99"
+          },
+          "MSTest.TestAdapter": {
+            "target": "Package",
+            "version": "1.1.18"
+          },
+          "MSTest.TestFramework": {
+            "target": "Package",
+            "version": "1.1.18"
           }
         },
         "imports": [

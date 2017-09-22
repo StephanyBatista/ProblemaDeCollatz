@@ -10,11 +10,11 @@ namespace ProblemaDeCollatz.Dominio
 
     public class CalculadorDaMaiorSequenciaDeCollatz : ICalculadorDaMaiorSequenciaDeCollatz
     {
-        private readonly IGeradorDeSequenciaCollatz _geradorDeSequenciaCollatz;
+        private readonly IContadorDeSequenciaDeCollatz _contadorDeSequenciaDeCollatz;
 
-        public CalculadorDaMaiorSequenciaDeCollatz(IGeradorDeSequenciaCollatz geradorDeSequenciaCollatz)
+        public CalculadorDaMaiorSequenciaDeCollatz(IContadorDeSequenciaDeCollatz contadorDeSequenciaDeCollatz)
         {
-            _geradorDeSequenciaCollatz = geradorDeSequenciaCollatz;
+            _contadorDeSequenciaDeCollatz = contadorDeSequenciaDeCollatz;
         }
 
         public int Calcular(int primeiroNumero, int segundoNumero)
@@ -26,7 +26,7 @@ namespace ProblemaDeCollatz.Dominio
 
             for (var index = primeiroNumero; index <= segundoNumero; index++)
             {
-                var quantidade = _geradorDeSequenciaCollatz.ContarParaNumero(index);
+                var quantidade = _contadorDeSequenciaDeCollatz.ContarParaNumero(index);
 
                 if (maiorQuantidade >= quantidade) continue;
 

@@ -2,12 +2,12 @@ using System.Collections.Generic;
 
 namespace ProblemaDeCollatz.Dominio
 {
-    public interface IGeradorDeSequenciaCollatz
+    public interface IContadorDeSequenciaDeCollatz
     {
         int ContarParaNumero(int numero);
     }
 
-    public class ContadorDeSequenciaDeCollatz : IGeradorDeSequenciaCollatz
+    public class ContadorDeSequenciaDeCollatz : IContadorDeSequenciaDeCollatz
     {
         private readonly IGeradorDoProximoNumeroDeCollatz _geradorDoProximoNumeroDeCollatz;
 
